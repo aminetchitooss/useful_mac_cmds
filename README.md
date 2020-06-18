@@ -20,6 +20,15 @@ Installing Sublime
       
 ## For Utilities
 
+>cheatsheet
+
+```bash
+B    # Run A and then B, regardless of success of A
+A && B  # Run B if and only if A succeeded
+A || B  # Run B if and only if A failed
+A &     # Run A in background.
+```
+
 >To save the current direcrtory into a stack and move into a new directory
 
     pushd /...
